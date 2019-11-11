@@ -1,0 +1,15 @@
+{
+  "name": "express-template-section-demo",
+  "version": "1.0.0",
+  "description": "Demo of StackOverflow answer (https://stackoverflow.com/questions/21737057/handlebars-with-express-different-html-head-for-different-pages/21740214)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ethan Brown <e@zepln.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0"
+  }
+}
