@@ -1,6 +1,17 @@
 {{#section 'head'}}
 <meta name="robots" content="noindex">
+<style>
+  body {
+    font-family: sans-serif;
+    margin: 5vh 10vw;
+  }
+  .code {
+    font-family: monospace;
+    background-color: #eee;
+  }
+</style>
 {{/section}}
 
-<h1>Body blah blah</h1>
-<p>This goes in page body.</p>
+<h1>Handlebars "Section" Example</h1>
+<p>This demonstrates using a Handlebars helper to create "sections" (à la Razor views) as described in my response to the Stack Overflow question <a href="https://stackoverflow.com/questions/21737057/handlebars-with-express-different-html-head-for-different-pages"><i>Handlebars with Express: different html head for different pages</i></a>.</p>
+<p>The view that renders this (<i>views/home.handlebars</i>) also contains HTML destined for the <span class="code">&lt;head&gt;</span> element.  Check the page source to verify that <span class="code">&lt;meta name="robots" content="noindex"&gt;</span> appears in <span class="code">&lt;head&gt;</span>, the template for which can be found in <i>views/layouts/main.handlebars</i>.  Note some CSS styles have also been added with this same technique.</p>
